@@ -1,0 +1,130 @@
+header {
+    background-color: #e98074;
+    width: 100%;
+    height: 56px;
+    border-bottom: 1;
+    position: fixed;
+    background-position: top;
+    top: 0;
+}
+
+img {
+    padding-left: 10px;
+}
+
+nav {
+    float: right;    
+}
+
+ul {
+    list-style-type: none;
+    top: 50%;
+    margin-right: 5px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+    background: #eae7dc;
+}
+
+a {
+    color: #ffffff;
+    text-decoration-line: none;
+    top: 50%;
+}
+
+h1 {
+    width: 60%;
+    float: center;
+    font-size: 30pt;
+    text-align: center;
+    color:#e85a4f;
+    margin: 0 auto;
+    margin-top: 100px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-family: 'Text Me One';
+}
+
+h2 {
+    float: center;
+    font-size: 12pt;
+    color: #8e8d8a;
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+    font-family: 'Open Sans';
+    padding-bottom: 3%;
+    font-size: 12pt;
+}
+
+h3 {
+    font-family: 'Text Me One';
+    font-size: 20pt;
+    color: #e98074;
+    align-items: center
+}
+
+footer {
+    background-color: #8e8d8a;
+    float: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin:0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-body {
+    vertical-align: middle;
+    /* transform: translate(50%, 10%); */
+    padding-bottom: 20px;
+    margin: 0 auto 90px auto;
+    width: 30%;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+input[type=text], input[type=email] {
+    border: 5px #000000;
+    border-radius: 7px;
+    width: 70%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    font-size: 16px; 
+}
+
+input[type=text]:focus {
+    border: 5px #e85a4f;
+}
+
+textarea {
+    border: 5px #000000;
+    border-radius: 7px;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    resize: none;
+}
+
+button[type=submit] {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+}

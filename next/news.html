@@ -1,0 +1,43 @@
+<html lang = "en">
+    <head>
+        <title>Rocket Blog</title>
+        <link href="news-style.css" rel="stylesheet" />
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed|Text+Me+One');
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="logo-com.png" width="60px">
+            <nav>
+                <ul>
+                    <a href="../welcome.html"><li>Home</li></a>
+                    <a href="news.html"><li>Blog</li></a>
+                    <a href="suggestion.html"><li>Feedback</li></a>
+                </ul>
+             </nav>
+        </header>
+        <main>
+            <h1>ROCKET BLOG</h1>
+            <h2>Write as fast as the rocket</h2>
+            <div class="main-body">
+                <div id="listNews"></div>
+                <div>
+                <form id="form-content">
+                    <input type="text" placeholder="Title" id="ntitle" value="" maxlength="100">
+                    <textarea cols="30" rows="10" placeholder="Write here" id="ntext" value="" required></textarea><p>
+                    <input type="button" onclick="submitNews()" value="Submit Content">
+                </form>
+                <script src="javascript.js"></script>
+            </div></div>
+            
+        </main>
+        <footer>
+            <h5>copyright &copy; 2018 by Anindya</h5>
+        </footer>
+        <script src="javascript.js"></script>
+        <script>
+            inputNews()
+        </script>
+    </body>
+</html>
